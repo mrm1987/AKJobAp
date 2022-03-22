@@ -1,0 +1,86 @@
+\documentclass[12pt]{article}
+\usepackage[top=.6in, bottom=.6in, left=.6in, right=.6in, a4paper]{geometry}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage[pdftex]{graphicx}
+\graphicspath{{/home/matt/Research/"Causal Integration"/}}
+\usepackage{multirow}
+\usepackage{amssymb}
+\usepackage{indentfirst}
+\usepackage{gb4e}
+
+\begin{document}
+	\begin{center}
+	{\Large Diagnostic Inferences}
+	\end{center}
+	
+\noindent Fernbach et al. (2011)
+
+\begin{center}
+	\includegraphics[scale=.4]{fernbachtable}\\\vspace{5mm}
+	\includegraphics[scale=.5]{fernbachgraph}
+\end{center}
+
+\noindent\textquotedblleft [W]hen making diagnostic judgments, participants integrated multiple causal parameters to measure the relative strength of different causes, as prescribed by the model"\\
+
+\noindent Cummins (2014)
+
+\begin{center}
+	\includegraphics[scale=.5]{cumminstable}
+\end{center}
+
+\noindent If disablers are considered twice in predictive inferences, \textquotedblleft [t]he impact of knowledge-retrieval effects and differential processing demands may be sufficient to explain the failure of human
+predictive inference."
+
+\pagebreak
+
+\noindent Question\\
+
+\noindent \textit{What about diagnostic thinking allows inferences to so closely match normative estimates?}
+
+\begin{center}
+	\includegraphics[scale=.5]{DiagInf} \includegraphics[scale=.6]{Pic2}
+\end{center}
+
+\noindent Fernbach-Cummins Model \& Equations\\
+
+\begin{center}
+\includegraphics[scale=.5]{fernbachmodel}
+\end{center}
+
+	\textbf{Predictive}\\
+	$$P(E\!f\!f\!ect\:|\:Cause) = W_c+W_a-(W_cW_a)$$\\
+	
+	\textbf{Diagnostic}\\
+	$$P(Cause\:|\:E\!f\!f\!ect)=1-P(\:\sim Cause)\frac{P(E\!f\!f\!ect\:|\:\sim Cause)}{P(E\!f\!f\!ect)}$$\\
+	$$P(Cause\:|\:E\!f\!f\!ect)=1-(1-P_c)\frac{W_a}{P_cW_c+W_a-P_cW_cW_a}$$
+	
+\pagebreak
+
+\begin{center}
+	{\large Degree of Inaccuracy if Inferences for $P(Cause\:|\:E\!f\!f\!ect)=P_c$ }\\\vspace{5mm}
+	\includegraphics[scale=.9]{diagorderedalt}
+\end{center}\vspace{3mm}
+$$P(Cause\:|\:E\!f\!f\!ect)=1-(1-P_c)\frac{W_a}{P_cW_c+W_a-P_cW_cW_a}$$\vspace{4mm}
+
+
+\noindent Fernbach \& Cummins Examples
+
+\begin{center}
+	\includegraphics[scale=.3]{fernbachexamples}
+\end{center}
+\pagebreak
+
+\noindent Prediction
+
+\begin{center}
+	\includegraphics{DiagPred}
+\end{center}
+
+\begin{center}
+	{\large Degree of Inaccuracy if Inferences for $P(E\!f\!f\!ect\:|\:Cause)=W_c$ }\\\vspace{5mm}
+	\includegraphics[scale=.8]{PredictiveGraph}
+\end{center}
+ 
+\end{document}
