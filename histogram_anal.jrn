@@ -1,0 +1,533 @@
+﻿/* JMP 11.0.0   01 */
+ListBox(vertical,near,sub(
+OutlineBox(
+open(1),title("Distributions"),helpKey("Distrib"),rerun(Distribution(Uniform Scaling(1), Stack(1), Continuous Distribution(Column(:HowImportantMoney), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantInteresting), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantGoodness), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantLeisure), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantPrestige), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantCreative), Horizontal Layout(1), Vertical(0)), SendToReport(Dispatch({"Distributions", "HowImportantMoney"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantInteresting"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantGoodness"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantLeisure"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantPrestige"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantCreative"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)})))),sub(
+ListBox(vertical,near,sub(
+SpacerBox(size(90,5),minSize(90,5),maxSize(90,5),BaseSize(90,5),fillColor(2147483647),),
+OutlineBox(
+open(1),title("HowImportantMoney"),helpKey("DistribC"),rerun(Distribution(Uniform Scaling(1), Stack(1), Continuous Distribution(Column(:HowImportantMoney), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantInteresting), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantGoodness), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantLeisure), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantPrestige), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantCreative), Horizontal Layout(1), Vertical(0)), SendToReport(Dispatch({"Distributions", "HowImportantMoney"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantInteresting"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantGoodness"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantLeisure"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantPrestige"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantCreative"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)})))),Context({Y("HowImportantMoney")}),sub(
+ListBox(horizontal,near,sub(
+ListBox(vertical,near,sub(
+PictureBox(sub(
+BorderBox(top(2),left(2),bottom(5),right(2),sides(0),options(0),xmin(0),ymin(0),sub(
+ScaleBox(id(1),axis(scaleType(0),scaleOrig(-0.5),scaleWidth(5),widthMajor(1),
+nbin(10),nminor(1),timeCode(0),ndec(0),ndecSpec(99),
+MinInit(-0.5),MaxInit(4.5),LinearInit,MajorInit(1),MinorInit(1),NObsInit(100),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,),scaleTypeOptions(),),length(277),baselength(277),sub(
+ScaleBox(id(2),axis(scaleType(0),scaleOrig(0),scaleWidth(45.1),widthMajor(10),
+nbin(9),nminor(1),timeCode(0),ndec(1),ndecimals(0),
+MinInit(0),MaxInit(45.1),LinearInit,MajorInit(10),MinorInit(1),NObsInit(10),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(110),baselength(110),sub(
+ScaleBox(id(3),axis(scaleType(0),scaleOrig(0),scaleWidth(0.55679012345679),widthMajor(0.1),
+nbin(5),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(0.55679012345679),LinearInit,MajorInit(0.1),MinorInit(0),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(110),baselength(110),sub(
+ScaleBox(id(4),axis(scaleType(0),scaleOrig(0),scaleWidth(1.11358024691358),widthMajor(0.2),
+nbin(5),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(1.11358024691358),LinearInit,MajorInit(0.2),MinorInit(0),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(110),baselength(110),sub(
+BorderBox(top(5),left(15),bottom(5),right(15),sides(16384),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+PictureBox(sub(
+ScaleBox(id(6),axis(scaleType(0),scaleOrig(0),scaleWidth(1),widthMajor(0.25),
+nbin(4),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(1),LinearInit,MajorInit(0.25),MinorInit(0),NObsInit(0),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(36),baselength(36),sub(
+FrameBox(size(277,46),border(12399),flags(0),markerSize(-1),ndisallow(1),disallow("Background Map"),help name("Distrib Outlier Box"),scales(1,6,1,6,1,1,0,10),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),BoxPlotSeg(schematic,horizontal,
+quantiles(3,3,3,3,2,2,1,1,0,0,
+0),moments(1.81481481481481,0.760116950066092,0.0844574388962324,1.98289047461504,1.64673915501459,81,81),adjacents(0,3,2,2),position(0),width(0),ConfidenceDiamond(1),ShortestHalf(2),lineColor(0),lineStyle(0),lineWidth(1),transparency(1),))))))),
+ListBox(horizontal,near,sub(
+PictureBox(sub(
+BorderBox(top(5),sides(12335),options(0),xmin(0),ymin(0),sub(
+FrameBox(size(277,110),border(0),flags(0),markerSize(-1),ndisallow(4),disallow("Background Map","Marker Size","Marker Drawing Mode","Marker Selection Mode"),help name("Distrib Histogram"),scales(1,4,1,4),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),HistSeg(
+HistState(num microbins(7),num bars(7),bar microbins(1),first microbins diff(0),
+counts(3,0,23,0,41,0,14),
+hilites(0,0,0,0,0,0,0),max bin count(41),max bar count(41),total bin count(81),
+bar color(-12241594),bar hilite color(-6125917),
+density axis(scaleType(0),scaleOrig(0),scaleWidth(1.11358024691358),widthMajor(0.2),
+nbin(5),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(1.11358024691358),LinearInit,MajorInit(0.2),MinorInit(0),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),
+prob axis(scaleType(0),scaleOrig(0),scaleWidth(0.55679012345679),widthMajor(0.1),
+nbin(5),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(0.55679012345679),LinearInit,MajorInit(0.1),MinorInit(0),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,),scaleTypeOptions(),),
+count axis(scaleType(0),scaleOrig(0),scaleWidth(45.1),widthMajor(10),
+nbin(9),nminor(1),timeCode(0),ndec(1),ndecimals(0),
+MinInit(0),MaxInit(45.1),LinearInit,MajorInit(10),MinorInit(1),NObsInit(10),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,),scaleTypeOptions(),),
+to axis(scaleType(0),scaleOrig(-0.5),scaleWidth(5),widthMajor(1),
+nbin(10),nminor(1),timeCode(0),ndec(0),ndecSpec(99),
+MinInit(-0.5),MaxInit(4.5),LinearInit,MajorInit(1),MinorInit(1),NObsInit(100),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,),scaleTypeOptions(),),z origin(-0.5),z width(5),stand alone bars(false),default bin span(1),bin width(0.5),bin origin(0),),
+horizontal,,properties(color(-5331025)),
+num rows(81),
+scores(4,6,2,2,4,4,4,4,6,4,6,4,2,6,4,6,2,2,2,4,2,2,4,4,2,4,2,4,6,4,4,6,2,4,4,4,4,4,0,2,4,4,4,6,2,2,2,4,6,4,4,4,0,4,4,4,2,4,4,2,4,4,6,2,4,2,6,2,6,6,2,6,2,4,4,4,4,4,2,4,0),
+))))))))),
+BorderBox(bottom(5),sides(0),options(0),xmin(0),ymin(0),sub(
+AxisBox(side(T),size(277,24),locked(false),scales(1,0,1,0),))))))))))))))))))),
+ListBox(vertical,near,))),
+ListBox(horizontal,near,sub(
+OutlineBox(
+open(1),title("Quantiles"),helpKey("Distrib Quantiles"),sub(
+TableBox(sub(
+StringColBox(n(11),flags(32),
+ strings("100.0%","99.5%","97.5%","90.0%","75.0%","50.0%","25.0%","10.0%","2.5%","0.5%","0.0%"),titleWrap(true),),
+StringColBox(n(11),right,
+ strings("maximum","","","","quartile","median","quartile","","","","minimum"),titleWrap(true),),
+NumberColBox(titleWrap(true),n(11),width(7),decimal(99),newdecimal(-1),numbers(3,3,3,3,2,2,1,1,0,0,0),))))),
+ListBox(vertical,near,sub(
+OutlineBox(
+open(1),title("Summary Statistics"),helpKey("Distrib Moments"),sub(
+ListBox(vertical,near,sub(
+TableBox(sub(
+StringColBox(n(6),flags(32),
+ strings("Mean","Std Dev","Std Err Mean","Upper 95% Mean","Lower 95% Mean","N"),titleWrap(true),),
+NumberColBox(titleWrap(true),n(6),width(9),decimal(99),newdecimal(-1),numbers(1.81481481481481,0.760116950066092,0.0844574388962324,1.98289047461504,1.64673915501459,81),))))))))))))))),
+SpacerBox(size(90,5),minSize(90,5),maxSize(90,5),BaseSize(90,5),fillColor(2147483647),),
+OutlineBox(
+open(1),title("HowImportantInteresting"),helpKey("DistribC"),rerun(Distribution(Uniform Scaling(1), Stack(1), Continuous Distribution(Column(:HowImportantMoney), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantInteresting), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantGoodness), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantLeisure), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantPrestige), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantCreative), Horizontal Layout(1), Vertical(0)), SendToReport(Dispatch({"Distributions", "HowImportantMoney"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantInteresting"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantGoodness"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantLeisure"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantPrestige"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantCreative"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)})))),Context({Y("HowImportantInteresting")}),sub(
+ListBox(horizontal,near,sub(
+ListBox(vertical,near,sub(
+PictureBox(sub(
+BorderBox(top(2),left(2),bottom(5),right(2),sides(0),options(0),xmin(0),ymin(0),sub(
+ScaleBox(id(1),axis(scaleType(0),scaleOrig(-0.5),scaleWidth(5),widthMajor(1),
+nbin(10),nminor(1),timeCode(0),ndec(0),ndecSpec(99),
+MinInit(-0.5),MaxInit(4.5),LinearInit,MajorInit(1),MinorInit(1),NObsInit(100),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,),scaleTypeOptions(),),length(277),baselength(277),sub(
+ScaleBox(id(2),axis(scaleType(0),scaleOrig(0),scaleWidth(72.6),widthMajor(10),
+nbin(7),nminor(0),timeCode(0),ndec(1),ndecimals(0),
+MinInit(0),MaxInit(72.6),LinearInit,MajorInit(10),MinorInit(0),NObsInit(10),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(110),baselength(110),sub(
+ScaleBox(id(3),axis(scaleType(0),scaleOrig(0),scaleWidth(0.896296296296296),widthMajor(0.1),
+nbin(8),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(0.896296296296296),LinearInit,MajorInit(0.1),MinorInit(0),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(110),baselength(110),sub(
+ScaleBox(id(4),axis(scaleType(0),scaleOrig(0),scaleWidth(1.79259259259259),widthMajor(0.5),
+nbin(7),nminor(1),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(1.79259259259259),LinearInit,MajorInit(0.5),MinorInit(1),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(110),baselength(110),sub(
+BorderBox(top(5),left(15),bottom(5),right(15),sides(16384),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+PictureBox(sub(
+ScaleBox(id(6),axis(scaleType(0),scaleOrig(0),scaleWidth(1),widthMajor(0.25),
+nbin(4),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(1),LinearInit,MajorInit(0.25),MinorInit(0),NObsInit(0),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(36),baselength(36),sub(
+FrameBox(size(277,46),border(12399),flags(0),markerSize(-1),ndisallow(1),disallow("Background Map"),help name("Distrib Outlier Box"),scales(1,6,1,6,1,1,0,10),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),BoxPlotSeg(schematic,horizontal,
+quantiles(3,3,3,3,3,3,3,2,1.05,1,
+1),moments(2.79012345679012,0.466798923057778,0.0518665470064198,2.89334117477437,2.68690573880587,81,81),adjacents(3,3,3,3),position(0),width(0),ConfidenceDiamond(1),ShortestHalf(2),lineColor(0),lineStyle(0),lineWidth(1),transparency(1),),MarkerSeg(n(15),nv(1),MarkerItem(
+x(1,1,2,2,2,2,2,2,2,2
+,2,2,2,2,2),
+y(0.5,0.546234382163377,0.5,0.503853812175269,0.598523952403815,0.376856634394199,0.407437033384311,0.582462830914866,0.417214395614441,0.388791506301515
+,0.390388387378952,0.591977550632776,0.542430739811357,0.439519598993715,0.48854176391081),),))))))),
+ListBox(horizontal,near,sub(
+PictureBox(sub(
+BorderBox(top(5),sides(12335),options(0),xmin(0),ymin(0),sub(
+FrameBox(size(277,110),border(0),flags(0),markerSize(-1),ndisallow(4),disallow("Background Map","Marker Size","Marker Drawing Mode","Marker Selection Mode"),help name("Distrib Histogram"),scales(1,4,1,4),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),HistSeg(
+HistState(num microbins(7),num bars(7),bar microbins(1),first microbins diff(0),
+counts(0,0,2,0,13,0,66),
+hilites(0,0,0,0,0,0,0),max bin count(66),max bar count(66),total bin count(81),
+bar color(-12241594),bar hilite color(-6125917),
+density axis(scaleType(0),scaleOrig(0),scaleWidth(1.79259259259259),widthMajor(0.5),
+nbin(7),nminor(1),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(1.79259259259259),LinearInit,MajorInit(0.5),MinorInit(1),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),
+prob axis(scaleType(0),scaleOrig(0),scaleWidth(0.896296296296296),widthMajor(0.1),
+nbin(8),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(0.896296296296296),LinearInit,MajorInit(0.1),MinorInit(0),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,),scaleTypeOptions(),),
+count axis(scaleType(0),scaleOrig(0),scaleWidth(72.6),widthMajor(10),
+nbin(7),nminor(0),timeCode(0),ndec(1),ndecimals(0),
+MinInit(0),MaxInit(72.6),LinearInit,MajorInit(10),MinorInit(0),NObsInit(10),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,),scaleTypeOptions(),),
+to axis(scaleType(0),scaleOrig(-0.5),scaleWidth(5),widthMajor(1),
+nbin(10),nminor(1),timeCode(0),ndec(0),ndecSpec(99),
+MinInit(-0.5),MaxInit(4.5),LinearInit,MajorInit(1),MinorInit(1),NObsInit(100),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,),scaleTypeOptions(),),z origin(-0.5),z width(5),stand alone bars(false),default bin span(1),bin width(0.5),bin origin(0),),
+horizontal,,properties(color(-5331025)),
+num rows(81),
+scores(6,6,6,4,4,6,6,6,6,4,6,6,6,6,6,6,6,6,6,6,6,6,6,4,6,6,6,6,6,6,2,6,6,6,6,6,6,6,6,6,4,4,6,6,6,6,6,6,4,6,6,6,6,6,6,6,6,4,4,4,4,6,6,6,6,6,6,6,6,6,6,6,4,6,2,6,6,4,6,6,6),
+))))))))),
+BorderBox(bottom(5),sides(0),options(0),xmin(0),ymin(0),sub(
+AxisBox(side(T),size(277,24),locked(false),scales(1,0,1,0),))))))))))))))))))),
+ListBox(vertical,near,))),
+ListBox(horizontal,near,sub(
+OutlineBox(
+open(1),title("Quantiles"),helpKey("Distrib Quantiles"),sub(
+TableBox(sub(
+StringColBox(n(11),flags(32),
+ strings("100.0%","99.5%","97.5%","90.0%","75.0%","50.0%","25.0%","10.0%","2.5%","0.5%","0.0%"),titleWrap(true),),
+StringColBox(n(11),right,
+ strings("maximum","","","","quartile","median","quartile","","","","minimum"),titleWrap(true),),
+NumberColBox(titleWrap(true),n(11),width(7),decimal(99),newdecimal(-1),numbers(3,3,3,3,3,3,3,2,1.05,1,1),))))),
+ListBox(vertical,near,sub(
+OutlineBox(
+open(1),title("Summary Statistics"),helpKey("Distrib Moments"),sub(
+ListBox(vertical,near,sub(
+TableBox(sub(
+StringColBox(n(6),flags(32),
+ strings("Mean","Std Dev","Std Err Mean","Upper 95% Mean","Lower 95% Mean","N"),titleWrap(true),),
+NumberColBox(titleWrap(true),n(6),width(9),decimal(99),newdecimal(-1),numbers(2.79012345679012,0.466798923057778,0.0518665470064198,2.89334117477437,2.68690573880587,81),))))))))))))))),
+SpacerBox(size(90,5),minSize(90,5),maxSize(90,5),BaseSize(90,5),fillColor(2147483647),),
+OutlineBox(
+open(1),title("HowImportantGoodness"),helpKey("DistribC"),rerun(Distribution(Uniform Scaling(1), Stack(1), Continuous Distribution(Column(:HowImportantMoney), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantInteresting), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantGoodness), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantLeisure), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantPrestige), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantCreative), Horizontal Layout(1), Vertical(0)), SendToReport(Dispatch({"Distributions", "HowImportantMoney"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantInteresting"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantGoodness"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantLeisure"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantPrestige"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantCreative"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)})))),Context({Y("HowImportantGoodness")}),sub(
+ListBox(horizontal,near,sub(
+ListBox(vertical,near,sub(
+PictureBox(sub(
+BorderBox(top(2),left(2),bottom(5),right(2),sides(0),options(0),xmin(0),ymin(0),sub(
+ScaleBox(id(1),axis(scaleType(0),scaleOrig(-0.5),scaleWidth(5),widthMajor(1),
+nbin(10),nminor(1),timeCode(0),ndec(0),ndecSpec(99),
+MinInit(-0.5),MaxInit(4.5),LinearInit,MajorInit(1),MinorInit(1),NObsInit(100),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,),scaleTypeOptions(),),length(277),baselength(277),sub(
+ScaleBox(id(2),axis(scaleType(0),scaleOrig(0),scaleWidth(39.6),widthMajor(5),
+nbin(7),nminor(0),timeCode(0),ndec(1),ndecimals(0),
+MinInit(0),MaxInit(39.6),LinearInit,MajorInit(5),MinorInit(0),NObsInit(10),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(110),baselength(110),sub(
+ScaleBox(id(3),axis(scaleType(0),scaleOrig(0),scaleWidth(0.488888888888889),widthMajor(0.1),
+nbin(9),nminor(1),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(0.488888888888889),LinearInit,MajorInit(0.1),MinorInit(1),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(110),baselength(110),sub(
+ScaleBox(id(4),axis(scaleType(0),scaleOrig(0),scaleWidth(0.977777777777778),widthMajor(0.2),
+nbin(9),nminor(1),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(0.977777777777778),LinearInit,MajorInit(0.2),MinorInit(1),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(110),baselength(110),sub(
+BorderBox(top(5),left(15),bottom(5),right(15),sides(16384),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+PictureBox(sub(
+ScaleBox(id(6),axis(scaleType(0),scaleOrig(0),scaleWidth(1),widthMajor(0.25),
+nbin(4),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(1),LinearInit,MajorInit(0.25),MinorInit(0),NObsInit(0),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(36),baselength(36),sub(
+FrameBox(size(277,46),border(12399),flags(0),markerSize(-1),ndisallow(1),disallow("Background Map"),help name("Distrib Outlier Box"),scales(1,6,1,6,1,1,0,10),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),BoxPlotSeg(schematic,horizontal,
+quantiles(3,3,3,3,3,2,2,1,0,0,
+0),moments(2.19753086419753,0.872062972015493,0.0968958857794992,2.39035982215736,2.0047019062377,81,81),adjacents(1,3,1,2),position(0),width(0),ConfidenceDiamond(1),ShortestHalf(1),lineColor(0),lineStyle(0),lineWidth(1),transparency(1),),MarkerSeg(n(4),nv(1),MarkerItem(x(0,0,0,0),y(0.5,0.546234382163377,0.503853812175269,0.598523952403815),),))))))),
+ListBox(horizontal,near,sub(
+PictureBox(sub(
+BorderBox(top(5),sides(12335),options(0),xmin(0),ymin(0),sub(
+FrameBox(size(277,110),border(0),flags(0),markerSize(-1),ndisallow(4),disallow("Background Map","Marker Size","Marker Drawing Mode","Marker Selection Mode"),help name("Distrib Histogram"),scales(1,4,1,4),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),HistSeg(
+HistState(num microbins(7),num bars(7),bar microbins(1),first microbins diff(0),
+counts(4,0,12,0,29,0,36),
+hilites(0,0,0,0,0,0,0),max bin count(36),max bar count(36),total bin count(81),
+bar color(-12241594),bar hilite color(-6125917),
+density axis(scaleType(0),scaleOrig(0),scaleWidth(0.977777777777778),widthMajor(0.2),
+nbin(9),nminor(1),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(0.977777777777778),LinearInit,MajorInit(0.2),MinorInit(1),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),
+prob axis(scaleType(0),scaleOrig(0),scaleWidth(0.488888888888889),widthMajor(0.1),
+nbin(9),nminor(1),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(0.488888888888889),LinearInit,MajorInit(0.1),MinorInit(1),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,),scaleTypeOptions(),),
+count axis(scaleType(0),scaleOrig(0),scaleWidth(39.6),widthMajor(5),
+nbin(7),nminor(0),timeCode(0),ndec(1),ndecimals(0),
+MinInit(0),MaxInit(39.6),LinearInit,MajorInit(5),MinorInit(0),NObsInit(10),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,),scaleTypeOptions(),),
+to axis(scaleType(0),scaleOrig(-0.5),scaleWidth(5),widthMajor(1),
+nbin(10),nminor(1),timeCode(0),ndec(0),ndecSpec(99),
+MinInit(-0.5),MaxInit(4.5),LinearInit,MajorInit(1),MinorInit(1),NObsInit(100),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,),scaleTypeOptions(),),z origin(-0.5),z width(5),stand alone bars(false),default bin span(1),bin width(0.5),bin origin(0),),
+horizontal,,properties(color(-5331025)),
+num rows(81),
+scores(4,6,6,2,4,4,4,4,6,6,6,4,2,2,6,6,4,6,6,4,4,6,6,0,2,4,4,4,6,4,2,2,4,4,6,4,4,4,6,6,0,4,4,4,6,4,2,4,0,2,6,4,6,6,6,2,6,4,4,4,4,6,6,6,6,6,6,6,2,6,6,6,6,6,2,6,2,4,6,6,0),
+))))))))),
+BorderBox(bottom(5),sides(0),options(0),xmin(0),ymin(0),sub(
+AxisBox(side(T),size(277,24),locked(false),scales(1,0,1,0),))))))))))))))))))),
+ListBox(vertical,near,))),
+ListBox(horizontal,near,sub(
+OutlineBox(
+open(1),title("Quantiles"),helpKey("Distrib Quantiles"),sub(
+TableBox(sub(
+StringColBox(n(11),flags(32),
+ strings("100.0%","99.5%","97.5%","90.0%","75.0%","50.0%","25.0%","10.0%","2.5%","0.5%","0.0%"),titleWrap(true),),
+StringColBox(n(11),right,
+ strings("maximum","","","","quartile","median","quartile","","","","minimum"),titleWrap(true),),
+NumberColBox(titleWrap(true),n(11),width(7),decimal(99),newdecimal(-1),numbers(3,3,3,3,3,2,2,1,0,0,0),))))),
+ListBox(vertical,near,sub(
+OutlineBox(
+open(1),title("Summary Statistics"),helpKey("Distrib Moments"),sub(
+ListBox(vertical,near,sub(
+TableBox(sub(
+StringColBox(n(6),flags(32),
+ strings("Mean","Std Dev","Std Err Mean","Upper 95% Mean","Lower 95% Mean","N"),titleWrap(true),),
+NumberColBox(titleWrap(true),n(6),width(9),decimal(99),newdecimal(-1),numbers(2.19753086419753,0.872062972015493,0.0968958857794992,2.39035982215736,2.0047019062377,81),))))))))))))))),
+SpacerBox(size(90,5),minSize(90,5),maxSize(90,5),BaseSize(90,5),fillColor(2147483647),),
+OutlineBox(
+open(1),title("HowImportantLeisure"),helpKey("DistribC"),rerun(Distribution(Uniform Scaling(1), Stack(1), Continuous Distribution(Column(:HowImportantMoney), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantInteresting), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantGoodness), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantLeisure), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantPrestige), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantCreative), Horizontal Layout(1), Vertical(0)), SendToReport(Dispatch({"Distributions", "HowImportantMoney"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantInteresting"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantGoodness"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantLeisure"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantPrestige"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantCreative"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)})))),Context({Y("HowImportantLeisure")}),sub(
+ListBox(horizontal,near,sub(
+ListBox(vertical,near,sub(
+PictureBox(sub(
+BorderBox(top(2),left(2),bottom(5),right(2),sides(0),options(0),xmin(0),ymin(0),sub(
+ScaleBox(id(1),axis(scaleType(0),scaleOrig(-0.5),scaleWidth(5),widthMajor(1),
+nbin(10),nminor(1),timeCode(0),ndec(0),ndecSpec(99),
+MinInit(-0.5),MaxInit(4.5),LinearInit,MajorInit(1),MinorInit(1),NObsInit(100),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,),scaleTypeOptions(),),length(277),baselength(277),sub(
+ScaleBox(id(2),axis(scaleType(0),scaleOrig(0),scaleWidth(36.3),widthMajor(5),
+nbin(7),nminor(0),timeCode(0),ndec(1),ndecimals(0),
+MinInit(0),MaxInit(36.3),LinearInit,MajorInit(5),MinorInit(0),NObsInit(10),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(110),baselength(110),sub(
+ScaleBox(id(3),axis(scaleType(0),scaleOrig(0),scaleWidth(0.448148148148148),widthMajor(0.05),
+nbin(8),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(0.448148148148148),LinearInit,MajorInit(0.05),MinorInit(0),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(110),baselength(110),sub(
+ScaleBox(id(4),axis(scaleType(0),scaleOrig(0),scaleWidth(0.896296296296296),widthMajor(0.1),
+nbin(8),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(0.896296296296296),LinearInit,MajorInit(0.1),MinorInit(0),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(110),baselength(110),sub(
+BorderBox(top(5),left(15),bottom(5),right(15),sides(16384),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+PictureBox(sub(
+ScaleBox(id(6),axis(scaleType(0),scaleOrig(0),scaleWidth(1),widthMajor(0.25),
+nbin(4),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(1),LinearInit,MajorInit(0.25),MinorInit(0),NObsInit(0),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(36),baselength(36),sub(
+FrameBox(size(277,46),border(12399),flags(0),markerSize(-1),ndisallow(1),disallow("Background Map"),help name("Distrib Outlier Box"),scales(1,6,1,6,1,1,0,10),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),BoxPlotSeg(schematic,horizontal,
+quantiles(3,3,3,2,2,1,1,0,0,0,
+0),moments(1.18518518518519,0.823272602348564,0.0914747335942849,1.36722570648017,1.0031446638902,81,81),adjacents(0,3,0,1),position(0),width(0),ConfidenceDiamond(1),ShortestHalf(1),lineColor(0),lineStyle(0),lineWidth(1),transparency(1),))))))),
+ListBox(horizontal,near,sub(
+PictureBox(sub(
+BorderBox(top(5),sides(12335),options(0),xmin(0),ymin(0),sub(
+FrameBox(size(277,110),border(0),flags(0),markerSize(-1),ndisallow(4),disallow("Background Map","Marker Size","Marker Drawing Mode","Marker Selection Mode"),help name("Distrib Histogram"),scales(1,4,1,4),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),HistSeg(
+HistState(num microbins(7),num bars(7),bar microbins(1),first microbins diff(0),
+counts(18,0,33,0,27,0,3),
+hilites(0,0,0,0,0,0,0),max bin count(33),max bar count(33),total bin count(81),
+bar color(-12241594),bar hilite color(-6125917),
+density axis(scaleType(0),scaleOrig(0),scaleWidth(0.896296296296296),widthMajor(0.1),
+nbin(8),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(0.896296296296296),LinearInit,MajorInit(0.1),MinorInit(0),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),
+prob axis(scaleType(0),scaleOrig(0),scaleWidth(0.448148148148148),widthMajor(0.05),
+nbin(8),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(0.448148148148148),LinearInit,MajorInit(0.05),MinorInit(0),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,),scaleTypeOptions(),),
+count axis(scaleType(0),scaleOrig(0),scaleWidth(36.3),widthMajor(5),
+nbin(7),nminor(0),timeCode(0),ndec(1),ndecimals(0),
+MinInit(0),MaxInit(36.3),LinearInit,MajorInit(5),MinorInit(0),NObsInit(10),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,),scaleTypeOptions(),),
+to axis(scaleType(0),scaleOrig(-0.5),scaleWidth(5),widthMajor(1),
+nbin(10),nminor(1),timeCode(0),ndec(0),ndecSpec(99),
+MinInit(-0.5),MaxInit(4.5),LinearInit,MajorInit(1),MinorInit(1),NObsInit(100),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,),scaleTypeOptions(),),z origin(-0.5),z width(5),stand alone bars(false),default bin span(1),bin width(0.5),bin origin(0),),
+horizontal,,properties(color(-5331025)),
+num rows(81),
+scores(2,0,0,0,4,2,4,4,6,0,4,2,2,2,2,4,0,2,4,2,2,0,4,4,0,2,0,4,0,2,4,4,2,4,2,4,6,0,2,4,2,4,2,2,2,0,0,2,2,2,2,4,2,4,2,2,4,4,2,4,4,2,4,2,4,2,6,2,2,0,2,0,0,4,0,0,4,4,0,2,4),
+))))))))),
+BorderBox(bottom(5),sides(0),options(0),xmin(0),ymin(0),sub(
+AxisBox(side(T),size(277,24),locked(false),scales(1,0,1,0),))))))))))))))))))),
+ListBox(vertical,near,))),
+ListBox(horizontal,near,sub(
+OutlineBox(
+open(1),title("Quantiles"),helpKey("Distrib Quantiles"),sub(
+TableBox(sub(
+StringColBox(n(11),flags(32),
+ strings("100.0%","99.5%","97.5%","90.0%","75.0%","50.0%","25.0%","10.0%","2.5%","0.5%","0.0%"),titleWrap(true),),
+StringColBox(n(11),right,
+ strings("maximum","","","","quartile","median","quartile","","","","minimum"),titleWrap(true),),
+NumberColBox(titleWrap(true),n(11),width(7),decimal(99),newdecimal(-1),numbers(3,3,3,2,2,1,1,0,0,0,0),))))),
+ListBox(vertical,near,sub(
+OutlineBox(
+open(1),title("Summary Statistics"),helpKey("Distrib Moments"),sub(
+ListBox(vertical,near,sub(
+TableBox(sub(
+StringColBox(n(6),flags(32),
+ strings("Mean","Std Dev","Std Err Mean","Upper 95% Mean","Lower 95% Mean","N"),titleWrap(true),),
+NumberColBox(titleWrap(true),n(6),width(9),decimal(99),newdecimal(-1),numbers(1.18518518518519,0.823272602348564,0.0914747335942849,1.36722570648017,1.0031446638902,81),))))))))))))))),
+SpacerBox(size(90,5),minSize(90,5),maxSize(90,5),BaseSize(90,5),fillColor(2147483647),),
+OutlineBox(
+open(1),title("HowImportantPrestige"),helpKey("DistribC"),rerun(Distribution(Uniform Scaling(1), Stack(1), Continuous Distribution(Column(:HowImportantMoney), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantInteresting), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantGoodness), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantLeisure), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantPrestige), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantCreative), Horizontal Layout(1), Vertical(0)), SendToReport(Dispatch({"Distributions", "HowImportantMoney"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantInteresting"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantGoodness"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantLeisure"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantPrestige"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantCreative"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)})))),Context({Y("HowImportantPrestige")}),sub(
+ListBox(horizontal,near,sub(
+ListBox(vertical,near,sub(
+PictureBox(sub(
+BorderBox(top(2),left(2),bottom(5),right(2),sides(0),options(0),xmin(0),ymin(0),sub(
+ScaleBox(id(1),axis(scaleType(0),scaleOrig(-0.5),scaleWidth(5),widthMajor(1),
+nbin(10),nminor(1),timeCode(0),ndec(0),ndecSpec(99),
+MinInit(-0.5),MaxInit(4.5),LinearInit,MajorInit(1),MinorInit(1),NObsInit(100),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,),scaleTypeOptions(),),length(277),baselength(277),sub(
+ScaleBox(id(2),axis(scaleType(0),scaleOrig(0),scaleWidth(35.2),widthMajor(5),
+nbin(7),nminor(0),timeCode(0),ndec(1),ndecimals(0),
+MinInit(0),MaxInit(35.2),LinearInit,MajorInit(5),MinorInit(0),NObsInit(10),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(110),baselength(110),sub(
+ScaleBox(id(3),axis(scaleType(0),scaleOrig(0),scaleWidth(0.434567901234568),widthMajor(0.05),
+nbin(8),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(0.434567901234568),LinearInit,MajorInit(0.05),MinorInit(0),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(110),baselength(110),sub(
+ScaleBox(id(4),axis(scaleType(0),scaleOrig(0),scaleWidth(0.869135802469136),widthMajor(0.1),
+nbin(8),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(0.869135802469136),LinearInit,MajorInit(0.1),MinorInit(0),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(110),baselength(110),sub(
+BorderBox(top(5),left(15),bottom(5),right(15),sides(16384),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+PictureBox(sub(
+ScaleBox(id(6),axis(scaleType(0),scaleOrig(0),scaleWidth(1),widthMajor(0.25),
+nbin(4),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(1),LinearInit,MajorInit(0.25),MinorInit(0),NObsInit(0),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(36),baselength(36),sub(
+FrameBox(size(277,46),border(12399),flags(0),markerSize(-1),ndisallow(1),disallow("Background Map"),help name("Distrib Outlier Box"),scales(1,6,1,6,1,1,0,10),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),BoxPlotSeg(schematic,horizontal,
+quantiles(3,3,3,2,2,1,1,0,0,0,
+0),moments(1.20987654320988,0.89045001800657,0.0989388908896189,1.40677121090879,1.01298187551096,81,81),adjacents(0,3,0,1),position(0),width(0),ConfidenceDiamond(1),ShortestHalf(1),lineColor(0),lineStyle(0),lineWidth(1),fillColor(0),transparency(1),))))))),
+ListBox(horizontal,near,sub(
+PictureBox(sub(
+BorderBox(top(5),sides(12335),options(0),xmin(0),ymin(0),sub(
+FrameBox(size(277,110),border(0),flags(0),markerSize(-1),ndisallow(4),disallow("Background Map","Marker Size","Marker Drawing Mode","Marker Selection Mode"),help name("Distrib Histogram"),scales(1,4,1,4),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),HistSeg(
+HistState(num microbins(7),num bars(7),bar microbins(1),first microbins diff(0),
+counts(19,0,32,0,24,0,6),
+hilites(0,0,0,0,0,0,0),max bin count(32),max bar count(32),total bin count(81),
+bar color(-12241594),bar hilite color(-6125917),
+density axis(scaleType(0),scaleOrig(0),scaleWidth(0.869135802469136),widthMajor(0.1),
+nbin(8),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(0.869135802469136),LinearInit,MajorInit(0.1),MinorInit(0),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),
+prob axis(scaleType(0),scaleOrig(0),scaleWidth(0.434567901234568),widthMajor(0.05),
+nbin(8),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(0.434567901234568),LinearInit,MajorInit(0.05),MinorInit(0),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,),scaleTypeOptions(),),
+count axis(scaleType(0),scaleOrig(0),scaleWidth(35.2),widthMajor(5),
+nbin(7),nminor(0),timeCode(0),ndec(1),ndecimals(0),
+MinInit(0),MaxInit(35.2),LinearInit,MajorInit(5),MinorInit(0),NObsInit(10),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,),scaleTypeOptions(),),z origin(-0.5),z width(5),stand alone bars(false),default bin span(1),bin width(0.5),bin origin(0),),
+horizontal,,properties(color(-5331025)),
+num rows(81),
+scores(2,0,4,2,6,2,2,4,4,2,4,4,4,2,2,2,0,2,0,0,2,2,2,0,0,2,0,0,2,2,4,4,4,2,4,2,6,2,0,6,4,0,0,6,2,2,0,4,4,2,2,2,0,4,0,4,4,4,0,4,4,6,6,2,2,2,2,2,4,4,2,4,2,2,0,0,4,4,2,0,0),
+))))))))),
+BorderBox(bottom(5),sides(0),options(0),xmin(0),ymin(0),sub(
+AxisBox(side(T),size(277,24),locked(false),scales(1,0,1,0),))))))))))))))))))),
+ListBox(vertical,near,))),
+ListBox(horizontal,near,sub(
+OutlineBox(
+open(1),title("Quantiles"),helpKey("Distrib Quantiles"),sub(
+TableBox(sub(
+StringColBox(n(11),flags(32),
+ strings("100.0%","99.5%","97.5%","90.0%","75.0%","50.0%","25.0%","10.0%","2.5%","0.5%","0.0%"),titleWrap(true),),
+StringColBox(n(11),right,
+ strings("maximum","","","","quartile","median","quartile","","","","minimum"),titleWrap(true),),
+NumberColBox(titleWrap(true),n(11),width(7),decimal(99),newdecimal(-1),numbers(3,3,3,2,2,1,1,0,0,0,0),))))),
+ListBox(vertical,near,sub(
+OutlineBox(
+open(1),title("Summary Statistics"),helpKey("Distrib Moments"),sub(
+ListBox(vertical,near,sub(
+TableBox(sub(
+StringColBox(n(6),flags(32),
+ strings("Mean","Std Dev","Std Err Mean","Upper 95% Mean","Lower 95% Mean","N"),titleWrap(true),),
+NumberColBox(titleWrap(true),n(6),width(9),decimal(99),newdecimal(-1),numbers(1.20987654320988,0.89045001800657,0.0989388908896189,1.40677121090879,1.01298187551096,81),))))))))))))))),
+SpacerBox(size(90,5),minSize(90,5),maxSize(90,5),BaseSize(90,5),fillColor(2147483647),),
+OutlineBox(
+open(1),title("HowImportantCreative"),helpKey("DistribC"),rerun(Distribution(Uniform Scaling(1), Stack(1), Continuous Distribution(Column(:HowImportantMoney), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantInteresting), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantGoodness), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantLeisure), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantPrestige), Horizontal Layout(1), Vertical(0)), Continuous Distribution(Column(:HowImportantCreative), Horizontal Layout(1), Vertical(0)), SendToReport(Dispatch({"Distributions", "HowImportantMoney"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantInteresting"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantGoodness"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantLeisure"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantPrestige"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)}), Dispatch({"Distributions", "HowImportantCreative"}, "1", ScaleBox, {Min(-0.5), Max(4.5), Inc(1), Minor Ticks(1)})))),Context({Y("HowImportantCreative")}),sub(
+ListBox(horizontal,near,sub(
+ListBox(vertical,near,sub(
+PictureBox(sub(
+BorderBox(top(2),left(2),bottom(5),right(2),sides(0),options(0),xmin(0),ymin(0),sub(
+ScaleBox(id(1),axis(scaleType(0),scaleOrig(-0.5),scaleWidth(5),widthMajor(1),
+nbin(10),nminor(1),timeCode(0),ndec(0),ndecSpec(99),
+MinInit(-0.5),MaxInit(4.5),LinearInit,MajorInit(1),MinorInit(1),NObsInit(100),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,),scaleTypeOptions(),),length(277),baselength(277),sub(
+ScaleBox(id(2),axis(scaleType(0),scaleOrig(0),scaleWidth(40.7),widthMajor(5),
+nbin(8),nminor(0),timeCode(0),ndec(1),ndecimals(0),
+MinInit(0),MaxInit(40.7),LinearInit,MajorInit(5),MinorInit(0),NObsInit(10),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(110),baselength(110),sub(
+ScaleBox(id(3),axis(scaleType(0),scaleOrig(0),scaleWidth(0.502469135802469),widthMajor(0.1),
+nbin(5),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(0.502469135802469),LinearInit,MajorInit(0.1),MinorInit(0),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(110),baselength(110),sub(
+ScaleBox(id(4),axis(scaleType(0),scaleOrig(0),scaleWidth(1.00493827160494),widthMajor(0.2),
+nbin(5),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(1.00493827160494),LinearInit,MajorInit(0.2),MinorInit(0),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(110),baselength(110),sub(
+BorderBox(top(5),left(15),bottom(5),right(15),sides(16384),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+PictureBox(sub(
+ScaleBox(id(6),axis(scaleType(0),scaleOrig(0),scaleWidth(1),widthMajor(0.25),
+nbin(4),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(1),LinearInit,MajorInit(0.25),MinorInit(0),NObsInit(0),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),length(36),baselength(36),sub(
+FrameBox(size(277,46),border(12399),flags(0),markerSize(-1),ndisallow(1),disallow("Background Map"),help name("Distrib Outlier Box"),scales(1,6,1,6,1,1,0,10),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),BoxPlotSeg(schematic,horizontal,
+quantiles(3,3,3,3,2.5,2,1,1,0,0,
+0),moments(1.87654320987654,0.871531927834298,0.0968368808704776,2.06925474432526,1.68383167542783,81,81),adjacents(0,3,1,2),position(0),width(0),ConfidenceDiamond(1),ShortestHalf(1),lineColor(0),lineStyle(0),lineWidth(1),fillColor(0),transparency(1),))))))),
+ListBox(horizontal,near,sub(
+PictureBox(sub(
+BorderBox(top(5),sides(12335),options(0),xmin(0),ymin(0),sub(
+FrameBox(size(277,110),border(0),flags(0),markerSize(-1),ndisallow(4),disallow("Background Map","Marker Size","Marker Drawing Mode","Marker Selection Mode"),help name("Distrib Histogram"),scales(1,4,1,4),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),HistSeg(
+HistState(num microbins(7),num bars(7),bar microbins(1),first microbins diff(0),
+counts(6,0,18,0,37,0,20),
+hilites(0,0,0,0,0,0,0),max bin count(37),max bar count(37),total bin count(81),
+bar color(-12241594),bar hilite color(-6125917),
+density axis(scaleType(0),scaleOrig(0),scaleWidth(1.00493827160494),widthMajor(0.2),
+nbin(5),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(1.00493827160494),LinearInit,MajorInit(0.2),MinorInit(0),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,fixMaximum,),scaleTypeOptions(),),
+prob axis(scaleType(0),scaleOrig(0),scaleWidth(0.502469135802469),widthMajor(0.1),
+nbin(5),nminor(0),timeCode(0),ndec(3),ndecimals(2),
+MinInit(0),MaxInit(0.502469135802469),LinearInit,MajorInit(0.1),MinorInit(0),NObsInit(20),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,),scaleTypeOptions(),),
+count axis(scaleType(0),scaleOrig(0),scaleWidth(40.7),widthMajor(5),
+nbin(8),nminor(0),timeCode(0),ndec(1),ndecimals(0),
+MinInit(0),MaxInit(40.7),LinearInit,MajorInit(5),MinorInit(0),NObsInit(10),
+options(showMajorTicks,showMinorTicks,showLabels,prohibitLogScale,fixMinimum,),scaleTypeOptions(),),z origin(-0.5),z width(5),stand alone bars(false),default bin span(1),bin width(0.5),bin origin(0),),
+horizontal,,properties(color(-5331025)),
+num rows(81),
+scores(6,4,6,4,2,4,4,4,4,2,2,2,4,4,6,2,6,4,2,4,4,6,4,4,6,0,6,4,4,2,2,4,0,2,2,2,0,6,4,4,4,4,6,2,4,4,6,0,4,4,6,4,4,4,2,6,6,4,6,2,4,4,6,6,2,4,4,4,6,6,2,2,4,0,0,6,4,4,4,2,6),
+))))))))),
+BorderBox(bottom(5),sides(0),options(0),xmin(0),ymin(0),sub(
+AxisBox(side(T),size(277,24),locked(false),scales(1,0,1,0),))))))))))))))))))),
+ListBox(vertical,near,))),
+ListBox(horizontal,near,sub(
+OutlineBox(
+open(1),title("Quantiles"),helpKey("Distrib Quantiles"),sub(
+TableBox(sub(
+StringColBox(n(11),flags(32),
+ strings("100.0%","99.5%","97.5%","90.0%","75.0%","50.0%","25.0%","10.0%","2.5%","0.5%","0.0%"),titleWrap(true),),
+StringColBox(n(11),right,
+ strings("maximum","","","","quartile","median","quartile","","","","minimum"),titleWrap(true),),
+NumberColBox(titleWrap(true),n(11),width(7),decimal(99),newdecimal(-1),numbers(3,3,3,3,2.5,2,1,1,0,0,0),))))),
+ListBox(vertical,near,sub(
+OutlineBox(
+open(1),title("Summary Statistics"),helpKey("Distrib Moments"),sub(
+ListBox(vertical,near,sub(
+TableBox(sub(
+StringColBox(n(6),flags(32),
+ strings("Mean","Std Dev","Std Err Mean","Upper 95% Mean","Lower 95% Mean","N"),titleWrap(true),),
+NumberColBox(titleWrap(true),n(6),width(9),decimal(99),newdecimal(-1),numbers(1.87654320987654,0.871531927834298,0.0968368808704776,2.06925474432526,1.68383167542783,81),))))))))))))))),
+SpacerBox(size(90,5),minSize(90,5),maxSize(90,5),BaseSize(90,5),fillColor(2147483647),)))))))
+/* preview image PNG (v=1,x=300,y=300,b=7689,c=96,d=126,e=42,f=92,g=59,h=34,i=39,j=47,k=44,m=B5B97267C6FFB08470DA4E053F6D4383)
+=v}uA%:{<d&52G3ALL(OiwSPH:<@nj!!!84X9P#8!!!$j=wLI4kK=3<!!-=)<#fB$!!$Abz!YXr!!!67>>vs>!!&+I!!#Ad>NI0W!@]=8>a2y(Mb<{{9t1R8dh_wuy8W.rVkQEVLPg|k!Vt&5>2g=Z)Y+Z%X=r|F0IStBQ}7jP&fE.Yne2kTP8|Hfnhjli0nyT&v%O|we!(^B<dk2vaI#G%SNZAH.^1LqUUDResG!Q_w!M.wd1boE:W_kJ0?Bt[y.SL^jVkxwyAZrEleeg@VI7=Nod6ZcpB|$bf$(9#z]tpCXIZt>X!g+Cy}<^5[_GA|
+r=7x@W.v%1i=?+]bmCfAwJ4C]SwLePjT>BmYdAgJl^Zm^o5^_u$Di==x$}dlnAcHnJhCTafUK!>TnQ2tK[qYO>TGltt-6M^81O{Pgzx9MuOxL(yR3@FOUy7Mo6--RRVR_NAk[)D10D_VBXIJbXekquB=WFEK+E}6#6.gETF=1w>mQh75z:6-${xf$hdiG>Zl^KG7fozF(&3JMGntn^o3+OG.ZALPt[wyVJyA|+5nVNRj3k^@mZ7OXzZ<(vs{G91XW8hS6$DMulVu_Pdj|}%%QoR4&X%9O.xsm_[PkkCb0L>=IUZJNYE5:Qz0oKOw9W(E
+zrk9VY_kHEjV#?jtf:YS]%ZOQ5sIhvMcCRcm3rx4pVmY03sm-5OCH|R&r3VkuIV=av$0S3CqdX4d@1ugTjq[!ns0t^C}#)1^>nX[E4er.Dy}!>oPqRu1Ed]Ao@I0LUSeXL)U>pFV^^.0V[.o#]ht!4Z(zt3e0v+LkTel$t(Z2^_2pMpla0A?Gh_GP0<O>bg^PpFsL(hqEfntY:lrm+TeFv+gM?Cb+N1^)hoN(mt[|Q(7B%ok${xMQ[[y>AD)u}X4n3D9eVo%dCcZ+7rFuingrVgo^Q2.xOWgS[s$u_0a.@9Bf}Ra?RJ2MGC6Y5@K7o|v
+z:wr<V]S%?@5suzCkJ$$V[2[xwwy-89K>EVH3KNH<Jp%mbfIgV&migOyCbsa.2i2Ni)#P7Ix}@HC|fhlGqJ@^@uB6jy88fT8329Z=&i!|963>UGzqFaEPkr7kpl&:]K6_BzYW>sjV^|V)WAyun&4#sT)7MC1uhR:V]nV2grM_NO-WYh@w!7&&LBFe>JKy%U5f^{5e25qF}v5vKZrg<N}l8SJM9=vy<P1:N-2Bw@uB7YhnyZd@tcN%TF=Fj>mQh75z:6-${xf$hdiG>Zl^KGX-aF?V[2]&TF>|!aLa(>O9M.2sz<ta?||^%@$DDg?GZ&6
+@b+_>t)v58t&l6>@]bGy>r0:]@2Zpet!&Fz?Xm4-?5Ptu@N|P|>G(=f?aUrmI#yI{u8kUbzSGwQN|!!VNS<?Z_--lpYXMXMbCx9{2z|l+QOhdz<8=2#ZhM2#@s9)!2x[%!VZ]+R>mAU<1yQB&HW+MMueCJlErEz8_P)EAhh[fqz}elaQZuR6.QyDo@u2R.1O6m|>mU{jQWf&!0v($?hx(|^g{-{6IP<z)jG5!xm{8m+i1G0MWlx%.6!z2I6cLv-HkLOSctU4)O}j}3Iq:WQa(<GOV[2]<QQGc^D#>0+DiPjOGKmWOiyNyO_h#PCtfT{[
+1ukv(Zi(5)BrHBu<97zewtn:dcGH}%N>U{YT{C62V[tjSQ]?Hnr[(EI?r^MNp2X|k7u}K?y_R1s:<m[gO=$&%r:d=VI2[7X=K[R_EgD[4o_E_Yv?LuR94v:=uGj8?+#S7@hXaV}2MBL#oQ8g9OCLGTx#rmC+A6g}Kt^nP9YbXgovu@pMBPbEYzTiKmsfh]XA4sW(ys+>V]yw&k:4uziA@-gNJ>%fmmfo.M8)b_%ezI]sl-Pxj.:jRXO]}5e]6$McRFBH8](j$SX&xJr0e34sn87LG)KdAwHeKO5qQ0[nCWbTy@8U]MzyZt1KsmYzKB%f
+R9B<$qTo@IwJK]|LbRhAH>m^@Q)Rcq=rxz_H:ivt92Wu1s9YVD8WYd%fPp]sozxfi6[=3&>-6rff^.mM4]QRHveI6:&c}1ogA7R{RNcs@9aNN[6&E94EP6m)M<crFY0NNb9$MVUmaTXCe!fk&FXYS)eP>Y{XV8=S&Hw4wzVVephivSm<WU>(E2SkGXDT?<dSLNgxX]w7emP]Kk$)MT:%oOZ^EQgNnucr_8p7tnhW3?IvyVOLTRe[oG%v%{k4y8qr2{N%7Aun9@t^f^<nq$QGoI<!eg|qgn^gCTwqbV:dhp}izLN>_<g52dGGx^bD?C{C
+ti&+JfMq[iTgtKkrv|]#XOeC3Yxs!H0.4qSMo5!mB@1Bn9.f4e>mRBj.^K4ps>}$8StU{$.U5i4GGw^I:H1@rozf@8+dbovzto2akrW&2kiEw$fMqZZmsq]n[N!]Mkj.kD]B(hL6!0g+tXA7UJh5SoE?iRVd]J<T2ya-=$@V()_JzaKEQ6w_ElHs1RBLGXYCzGubc5qjz3lNtM1MseKJ5R4GdlEScu01xj>nhby7dt8Jhxqt:KrGLwE^FIu%gLqoKy:rd]J<V2ya-=+4ZwxYkU%s5&TY.rY=kFJgLpT9>#ovypyMT?d%hFsPjE5p5p|)
+yr!W&cu04m[2GRoH)a9pe|<?s_)eJzjUjVxtCvsmRD)%L>mNzs@s}g9vifV.y+t-1BX%Jf>UE=9$sBHux6E-GOAF@i@uB8|9IE:J^PvGYef0#%2ya-G2>JD)1ukv#GH%O#c&YuBFqG6TwuM-oY.C$-pi|V$dw&Cvdw3=pduLqRo9))U&v|l<pj<8[NFDoINA^v}o7bwk:D)ahNCWiRNBQ]3NEwMnN@Eqho6HrT9(9apJm]?xv.SkNDT<=gtlzZQQr4(NJ!SM@BQnrL!h:1kV[6On>mAU<1u_j](yoGn${vcv#PMpz%0=X!vj|k=V5FJN
+:DZjrx8qW2w<OwSwJPM{EVp7ApmvX+7K&1EEfQ7!zsCmRsH2&lv$At)q@-2!eI1SeEn2]1VQJve:%3RAz1plhEKe_2Joq]BW%zC@@p^-9n}nwlf&G:sIVw8_%neAF$SwL{P@Okz:_:HO0B[d:(3mq0$XIK(QKS?%<8=2#ZhM2#@s9)!2x[%!VZ]+Riy1.iQGkY?!)UQzT<7k2oSI9Z.[i[fjj<tEf@olrlu41qhV_Nip_fU@iyOPSmg@tQwcr#C[bpVCzl^>lFk_vAHyXWKFkBgGz]FMKE_N}kpDCzg4BVd[r86a>k[_(@#78tj-8kP@
+EosK[odJa.zGUb9.Os?kg&mITO^.R4Wp+2D8f_Cr6fGHTD]ll(yUkae$JA-I]j?Pq<=R9yx7fFD.[l0rjj<tE:IQm[eYrEXts4japWj1n<DB-YUHjaTG}m(P>HGK.o|@bkP>-OnT<7oyBnobN{.qjvs=EPODFQ#Ou{?}QGO::iKxdlDzoU}K.3U&DIq8114{gN9{.{S.aV&iCwg|J7u{32yGO<G1y{HAzGP|JIRdaY(z$|}(9dImU(zkoUX<qI:On![:L.aLY{%0@?MG:J!LR<=?SZEY_X]88.n_VTqzV0-q0T(2jcR=X$3.09D.[ih-
+jj<tE.L:xpvX^hcwufL5P]FO8PLFhiR6Rcorv>$!2IV&ScUzMf&mtCGGt0y5oRI1o7WRWk6?ALmP@Okz:_:HO0B[d:(3mq0$XIK(QKS?%<8=2#ZhM2#@s9)!2x[%!VZ]+R>mAU<Xx<9!WCIp5yR:&yboFU(Y)HI2ZHLbfxyKDRynOj[b.hwtz9dA}x&<M}94bNAeA9sCNh%=[yshhZ$N3&jv#g!>9aN^M9_nzQJ)dc|]sv<OsMLsO+Z8vUC4?3[uG92ud%aVqxd)zgqYq>cNS2W87s4+]]{qTHLWAKG@<Q_Bo!hgu:BA{$o^ou.#1Io+
+>qy|#1u_j](yoGn${vcv#PMpz!h9J|!F[7}!5mZQ!+um<!%yu]!#{yn!!|{vP2AVN8uxqZ{7_o9u4arJ?!ro6f(V>P-1&i?(>u4x2y3B81uoN#:i8OxBo(2jHyY)6$koThZm|0H(yr>dlYWHM6fWP})sw)r2IV+7@tA^K>m_w$PRKzr__0@Tlu52G(Wa)P<DB-j1ufVI[vQ^tHM1|}3ip3f?n.4IZj]>qV[Ap&!h9keD#ZN(]Rf2i12B2|Qc^7T>mM.m>UF2iku>{}BSbBLX]8Cm<=[Jc2y}T-#PNWKc%7w0?hm3Q=?^@{%-^>&VZu9[
+V+g@RZRwm{_&D^t6{lTYQT9pG@u}(6${x1qHlkd9XQZB!SX>Zx)7>U-2y3B81uoN#:i8OxBo(2jHyY)6$koThZm|0H(yr>dlYWHM6fWP})sw)r2IV+7@tA^K>m_w$PRKzr__0@Tlu52GSS(8nH4?Gurw++-bVFa_pE3qkX2fR^+w7u|95GfcZk!2q(ys3C9#.J0-s4<L(>u4xiy?b]Zl^IuG%[j1(d:8$Zi)fWIv]f9dm?c<=W^#iZk?ORiy4NJs4v?z-smbRQUgBF>mP]Du&L_OJPb!h<0Xdf2y<?NQ]?EYTtpwT=kyq.QN%[:bFtgv
+s_tM|-!uy$QVs]#2xjK^XrfhnJS9e((^a!L2yBFGbFr5rdc%t}$8dasZk!2q(ys3C9#.J0-s4<L(>u4xiy?b]Zl^IuG%[j1(d:8$Zi)fWIv]f92yK28FsT6nzAbbv{3H38eycopGO:p9g(!o0^zMTI6DoheoGRUw{5ttvQ]B>E-!uy3QVs]#2xjK^XrfhnJS9e((^a!L2yBFGbFr5rdc%t}$8dasZk!2q(ys3C9#.J0-s4<L(>u4xiy?b]Zl^IuG%[j1(d:8$Zi)fWIv]f9dm?c<=W^#iZk?ORiy4NJs4v?z-smbRQUgBF>mP]Du&L_O
+JPb!h<0Xdf2y<?NQ]?EYTtpwT=kyq.QN%[:bFtgvs_tM|-!uy$QVs]#2xjK^XrfhnJS9e((^a!L2yBFGbFr5rdc%t}$8dasZk!2q(ys3C9#.J0-s4<L(>u4xiy?b]Zl^IuG%[j1(d:8$Zi)fWIv]f9dm?c<@jU9g78{P85I7be^sAjicPHK3(yw)?ggWttH|@csy<o&q2:-!mhV_Niw9jjJp#mGXQO3Cjch22DyCGC7QdbI76:%|mdcQPxcPHK3(yw)?ggWttH|@csy<o&q2:-!mhV_Niw9jjJp#mGXQO3Cjch22DyCGC7QdbI7?{1n[
+jA#}-zHL-Oo&QpTk5#>)kp%IrN{eb<OIgtAnd6TMO[D_}yaLm!Yf_m3p?xR4f!p7AzX6LmQFHYtMRF!1.ogB9Y{9Uicbav}m)jd:wF%R:Sxx$>_8z_AxBx2Moa2qKy|r&FvL:eDeuHE.Y)I.nm0hCd8k_ec]j(u4u26LMZ@OV#uN:#VPe#|UGQGjinIy(EM[ur|u)K4RDjSw7ahxD|ggWvLpJz%hNY#Bs1ukvnb$Oxda9uzvZGOiUD8YFSWP%A8]NW?<g2BTq${KQb2yxbnaGFN#x#n)q6?Eekb$OxdMP+b)bAEj@!#{|2!!|{vP2AVN
+:W_k90?Bt[Z!Ua+yKI)q<6nnnV)vK1cpixwMs{vSJehs?173R-pT(h|Lez=h2lsmHuKYKPxa(KB]!-r#ya)^RA|Uvr8I9Ng>)%Rg)j=oYDzRU[O$}R>z$Y&tdU268ezC7_u{CG(xz@hE7E))It#A)s$Vi|[m^V_>-o3GqSAS-T4_Ray0|Zm2i}l]sO&Sl|aB6On2d(r7sp|edV+qW^78eF%qv$#B&r6=iLS!(&9umO^Xn:9k{0iE8Q2{DWBgC(.$pJp=Z0ry5VU:fkR=O=XfCj}.ywCj->hG0JGD+=BTLhJXhOJ7r5I2%]OUhY9zZI[h
+ZJi6#leA872KTLcHIq8}t^]w-bXg@4_nsR=oD6P89mH|tkpcZ<hY<j(?G4N=LZ%}S)gNYL8I8iQNPYFuIa(T93=):yn%lWNm>5#xfL=]z]s)]hm^V{_hr@uZp[KBr-2bTrBzAi?&<l}ruz.eYd10nlBQh(e(23yF$WXO3#??gX!^^rl!BBKuP@Okz:_:HO0B[d:(3mq0$XIK(QKS?%<8=2#ZhM2#@s9)!2x[%!VZ]+R>mAU<1u_j](yoGn${vcv#PMpz!h9J|!F[7}!5mZQ!+um<!%yu]!#{yn!!|{vP2AVN:W_k90?Bt[(23yA$WXO3
+#??gXuK2)2jcaS^Y_t<2eCaMFxFm8Rf]F05&Rz}FqYqjJOgZ83EM6b[k5#]Jzz-d9TnQ2CO!o!qVK]S!NE{c{bi<4g:B:fRo^x{0.&}<D({n4=_xi=8hdHo]&FTpvg#HWpq96cS^sknsSf]7#fE6L9_#nYDBfC7^u1PPA5-0Gl3@ZCcb?Hp:-<v]8rTr}C4snG]LptIL+4[=&yqY&7_T!):CSr3uK{W%IA]Ha+[(>&caJgQGKAr6?P&{n+bROn^jc0RdCE@j^LY=p)t0LiLc-&kbmtpdA?gVZtVO%8$q18#f2yce-7e?Go>qs}2X#$({
+X!g+CB21jVFKh&fe^k1Ngt-rM2h<P7Y4%kDv0B5MxdG{s9r$nde2f7Sy_Fsbf?Wl-h}^IOLg}Z:T&wEg]<lB4_>(}Xb=pL&wg:hW((d%xNh.b+hZCSPisXzSO+jZ.wdTydNKjL_LYKLp9EwwtXK&|]rT7vtEpC<.mqf#.8KAPs4t(r>LptIb+4[=+y--I<$D&!%_mnt!m0HkKN$<2pxBus<nf_:xw+vrRv>h_HMstC22]2@OI}892O^)1Sd0YkITw|-<rTjQ:ZB:<kq:zoh[aFh|cdiY2Y+KYm.?j3&yJ:[_QIXuq]y(E.pQBgqtW%s1
+U4J_0s#[5(zU4we16!ML:!X<LsU_ickSue-yT{9Lqogm%:U4AzQActk&#=z+WZy!qja^.UzU-RwlAr^Jn-v(6CcN%DrXSpp.F6.8Y{LkBcyI[fu@1t[w@V6<tDMAG8HvVyzAQqNKN}!YYsmjGdrnw6p=<$49S8JrzZ$Z9bhXNCELpe)Y_6IEQ50<J_T^ez[GUFcp[rX=rWLc6oTO@sGhw]Hz@uvaOrhrs-65ErZ=?yLM0:pa82!!Lq?vaHdiiVzt[Pa29VSl4jO}qK1yT=kkM3Dg8^n08+Y4<<Mh5W.k[Tx-YajfBuv]VJQImnJz26(E
+pJA_PEIl$#L=616]jbv9zrbH|lb6r1g?ZMYO?IU@I]Put@8w0KsOP?Jwib!wN(qI%T:B6!y3C1|5Fqpp_}]_CsUU>$[Digiy_}Xbvd-Xl7sL^ts<?MtlBhwhCZ@4HrRU{fusZw3oFC{qbrui-CcN%.VE(FxmEjn%EHx$|x<H{AroGi}nAH]2G(cVfjCF]{Op1vNZD13E9rXtouts%0gHYBz^]g#tzv?>cNS%V(t3AWAeX:&>#DYds1GvY#mlRHKOx)}=MP.QzuNQHmGv}<^XOevNJ?xngOZg1B:4&Kbz1<P7xp#1!zWamh.x83%w7!$s
+i:?j=NRo:LfZ^+jHbL%}SmL+gxx1XREXF{BsqtgLIrDhbjwXtiwl).gi1G0LbQ8NcqV]L{T|<Ndl^%P3o[Km.zKRW|KmtbmoRE4O90p1-L:#TnfM.g#elRA_e|:G1kEyHpti-)Bb$AjR]n5_|r>415FK|whxD$[qU<-grHFr|@We@IQt1X1dUiIzm_O9|C8ixBB=qnk<difjqt(Vk_ti06xu.._Y1y[)%GMC)2kH}CEF34.iwLX-a.B5b8$VHy=yZ#TAp]0%kpV]NmU8awSNZ)}9WUi(^Wnv+=92ZIP>(!8&wMm|CYiFTD.?aTC@dg!g
+-gQ=iL3v-%6s9t:wM|Quu3w0r%gS6DCis@0fI4m<Jn6O{d+8]BZC<xiocqiUyXxePziZsEEe_P8iw.q9n>u|%-!acuBXBWi2f:yME>6==hWCDHg<eb>u!WGP@np[dDZ:ubL+R=%Dicp.AMa]|KY67CDKI9_6$4?^7Ra@5e%4Q]_}[#VpWosFY+A2PrDtj%r$JP:87d6jznk{?Vsye>+[qSurb2pGtmw(<7u|U<68KO_sC0:?P!cDcYJ2RHo<=UaWZNnhkBR#$H<N%&({nYs<17.y1OnlaOj5${w4td4:$pcJ2[A!CSdQJxEW&vkJ1]o|
+y-r4?_RI2m&!%i5Zjq2L#Op#iq}KMtY+N?r:S{!Q29HfHN{Ge&nF=m2O!RiYk%lQOEPJ.ZciE6M.Z}&tO+SDMK=hk(n6b(9EIrAG@XftCJ4&%9jLLP9nJ9[rVW[tvxB#4@].tIlYiV|K9$NkGr[kp2Ml#uWPeK!z2yc]xm&DY:yW4yr@(1LPuR7i:{:y^{x]Zy?$zkoPzgYSxLci>ae6G#Zo]oUZx8kZ09|l8i%xD_!<As{PW3N!H:_:HO0B[d:(3mq0$XIK(QKS?%<8=2#ZhM2#@s9)!2x[%!VZ]+R>mAU<1u_j](yoGn${vcv#PMpz
+!h9J|!F[7}!5mZQ!+um<!%yu]!#{yn!!|{vP2AVN:W_k90?Bt[(23yA$WXO3#??gX!^^rl!BBKuP@Okz:_:HO0B[d:(3mq0$XIK(QKS?%<8=2#ZhM2#@s9)!2x[%!VZ]+R>mAU<1u_j](yoGn${vcv#PMpz!h9J|!F[7}!5mZQ!+um<!%yu]!#{yn!!|{vP2AVN:W_k90?Bt[(23yA$WXO3#??gX!^^rl!BBKuP@Okz:_:HO0B[d:(3mq0$XIK(QKS?%<8=2#ZhM2#@s9)!2x[%!VZ]+R>mAU<1u_j](yoGn${vcv#PMpz!h9J|!F[7}
+!5mZQ!+um<!%yu]!#{yn!!|{vP2AVN:W_k90?Bt[(23yA$WXO3#??gX!^^rl!BBKuP@Okz:_:HO0B[d:(3mq0$XIK(QKS?%<8=2#ZhM2#@s9)!2x[%!VZ]+R>mAU<1u_j](yoGn${vcv#PMpz!h9J|!F[7}!5mZQ!+um<!%yu]!#{yn!!|{vP2AVN:W_k90?Bt[(23yA$WXO3#??gX!^^rl!BBKuP@Okz:_:HO0B[d:(3mq0$XIK(QKS?%<8=2#ZhM2#@s9)!2x[%!VZ]+R>mAU<1u_j](yoGn${vcv#PMpz!h9J|!F[7}!5mZQ!+um<
+!%yu]!#{yn!!|{vP2AVN:W_k90?Bt[(23yA$WXO3#??gX!^^rl!BBKuP@Okz:_:HO0B[d:(3mq0$XIK(QKS?%<8=2#ZhM2#@s9)!2x[%!VZ]+R>mAU<1u_j](yoGn${vcv#PMpz!h9J|!F[7}!5mZQ!+um<!%yu]!#{yn!!|{vP2AVN:W_k90?Bt[(23yA$WXO3#??gX!^^rl!BBKuP@Okz:_:HO0B[d:(3mq0$XIK(QKS?%<8=2#ZhM2#@s9)!2x[%!VZ]+R>mAU<1u_j](yoGn${vcv#PMpz!h9J|!F[7}!5mZQ!+um<!%yu]!#{yn
+!!|{vP2AVN:W_k90?Bt[(23yA$WXO3#??gX!^^rl!BBKuP@Okz:_:HO0B[d:(3mq0$XIK(QKS?%<8=2#ZhM2#@s9)!2x[%!VZ]+R>mAU<1u_j](yoGn${vcv#PMpz!h9J|!F[7}!5mZQ!+um<!%yu]!#{yn!!|{vP2AVN:W_k90?Bt[(23yA$WXO3#??gX!^^rl!BBKuP@Okz:_:HO0B[d:(3mq0$XIK(QKS?%<8=2#ZhM2#@s9)!2x[%!VZ]+R>mAU<1u_j](yoGn${vcv#PMpz!h9J|!F[7}!5mZQ!+um<{&<0|y@vLexfKj:!!!!O
+@3=gYExg#i!!!#T
+ */
